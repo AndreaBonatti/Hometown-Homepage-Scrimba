@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#hero-section {
+    background-image: url("images/konoha_village.png");
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    background: #219ebc;
+    padding: 2px 8px;
+}
+
+#activities-section {
+    margin-top: 0;
+    padding: 20px;
+    background-color: #ffd6a5;
+}
+
+#activities-list {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.rounded-image {
+    border-radius: 50%;
+}
+
+#guide-section {
+    width: 500px;
+    margin: 50px auto 0 auto;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(#ffb703, #fb8500);
+    border-bottom: 6px solid #023047;
+    color: white;
+    text-shadow: 2 2 1px black;
+}
+
+#guide-avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: 4px solid #8ecae6;
+}
